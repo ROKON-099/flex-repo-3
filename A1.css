@@ -1,0 +1,25 @@
+.grid-box{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border:1px solid;
+    box-shadow: 0 4px 8px;
+    border:none;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    transition: background 0.5s ease;
+}
+    
+
+
+.grid-box:hover{
+    background: blue;
+    cursor: pointer;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    padding: 20px;
+}
